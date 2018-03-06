@@ -1,11 +1,25 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="MrFoxTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/moradocolor</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/naranja</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/darkgrey</item>
+        <item name="android:dialogTitle">Mr.Fox</item>
+        <item name="colorButtonNormal">@color/moradocolor</item>
+        <item name="editTextColor">@color/darkgrey</item>
     </style>
+
+    <style name="MrFoxTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MrFoxTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MrFoxTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

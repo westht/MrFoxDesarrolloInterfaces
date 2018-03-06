@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MrFox</string>
+    <string name="mrfoxtxt">Mr. Fox!</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="btnlog">Log In</string>
+    <string name="title_activity_my_main">MyMain</string>
 </resources>
