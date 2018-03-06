@@ -4,5 +4,6 @@
     <string name="user">Username</string>
     <string name="pass">Password</string>
     <string name="btnlog">Log In</string>
-    <string name="title_activity_my_main">MyMain</string>
+    <string name="title_activity_my_main">Mr.Fox</string>
+    <string name="txtlogin">Log In to continue!</string>
 </resources>

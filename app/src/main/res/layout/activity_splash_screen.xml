@@ -8,6 +8,7 @@
     tools:context="com.example.sergiocuadrado.mrfox.MySplash">
 
     <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circ"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_gravity="center"
@@ -22,6 +23,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
         android:text="@string/mrfoxtxt"
-        android:textSize="30sp" />
+        android:textSize="36sp"
+        android:textStyle="bold"/>
 
 </android.widget.FrameLayout>

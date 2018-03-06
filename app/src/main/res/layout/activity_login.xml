@@ -9,9 +9,20 @@
     android:background="@color/moradoclaro">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/foximage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/fox"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:src="@drawable/fox" />
+
+    <TextView
+        android:id="@+id/txtlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="20dp"
+        android:text="@string/mrfoxtxt"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 </android.widget.FrameLayout>

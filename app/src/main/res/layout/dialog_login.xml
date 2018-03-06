@@ -5,6 +5,17 @@
     android:orientation="vertical"
     android:layout_marginTop="50dp">
 
+    <TextView
+        android:id="@+id/txlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="50"
+        android:text="@string/txtlogin"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"></TextView>
+
     <EditText
         android:id="@+id/user"
         android:layout_width="match_parent"
