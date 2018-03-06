@@ -37,7 +37,7 @@ public class MyMain extends AppCompatActivity {
 
     }
     private void refresh(){
-        Snackbar.make(frame,"Lost your fox?",3).show();
+        Snackbar.make(frame,"Lost your fox?",3000).show();
         swipe.setRefreshing(false);
 
     }
